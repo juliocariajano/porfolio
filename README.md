@@ -9,64 +9,61 @@ Full Stack Developer con formación como Diseñador Web. Experiencia trabajando 
 Redux, SQL entre otras tecnologías del sector. Realicé dos App de manera individual y una App, cuya temática es la salud, de manera grupal. Con pensamiento creativo, resolución de problemas, trabajo en equipo, comunicación y autonomía, soy apasionado por la tecnología además de estar en continua especialización, tengo conocimientos y experiencia en Redes y Telecomunicaciones - Mikrotik Certified MTCCNA - MTCRE - UBIQUITY, Videovigilacia, Ofimatica.
 Mi objetivo es evolucionar profesionalmente en un ambiente de trabajo armonioso, donde pueda enfrentar desafíos y continuar con mi desarrollo personal, priorizando siempre la colaboración y participación en equipo, resolución de problemas, comunicación y autonomía, teniendo como objetivo común alcanzar el máximo potencial en cada tarea!
 
+TECNOLOGÍAS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML, CSS, Javascript, React, Redux, Node.js, Express, Postgres, Sequelize, Mysql
 
-### `npm test`
+METODOLOGÍAS
+SCRUM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PROYECTOS
 
-### `npm run build`
+Full Stack Web Developer -  App Más Salud				                              Agosto 12 - Septiembre 8
+Proyecto grupal
+Henry Bootcamp, Buenos Aires, Argentina. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+●	Diseñar y desarrollar una App de Salud, cuyos usuarios son pacientes y médicos, los cuales pueden gestionar turnos, búsquedas de profesionales filtrados por especialidad y locación, entre sus funcionalidades se encuentran la de login con Google Login, respuesta automática vía mail con Nodemailer, un calendario implementado con @material-ui/pickers, pasarela de pago para MercadoPago. La estética de la misma fue llevada a cabo con Bootstrap y MUI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+●	Desarrollar la app usando para el Front React, Redux, CSS puro y Back desarrollado en Node.js con Express. Base de datos en PostgreSQL y Sequelize.
+https://app-clinica.vercel.app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Full Stack Web Developer - Foods App					                                Julio 15 - Agosto 4
+Henry Bootcamp, Buenos Aires, Argentina. 
+Proyecto individual
 
-### `npm run eject`
+●	Diseñar y desarrollar una App de perros que incluía: búsquedas, filtrados, ordenamientos y creación
+●	Desarrollar la app usando para el Front React, Redux, CSS puro y Back desarrollado en Node.js con Express. Base de datos en PostgreSQL y Sequelize.
+https://pi-foods-julio-cariajano.vercel.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Full stack web developer – search github user app
+●	Diseñar y desarrollar una App SPA (Single Page Application) que consume datos de API  (lectura) de usuarios de github
+●	Búsqueda de usuários de Github y renderice sus propiedades Tecnologías utilizadas en Front: React, MATERIAL UI.
+https://usergithub.vercel.app/ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Full Stack Web Developer - Food Countries			                                  Junio 1 - Julio 7
+Henry Bootcamp, Buenos Aires, Argentina. 
+Proyecto individual 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+●	Diseñar y desarrollar una App de gastronomía que incluía: búsquedas, filtrados, ordenamientos y creación
+●	Desarrollar la app usando para el Front React, Redux, CSS puro y Back desarrollado en Node.js con Express. Base de datos en PostgreSQL y Sequelize.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+CURSOS REALIZADOS
+-	Udemy - React JS Desde Cero! Hooks, Redux, Context, Firebase y más! - Udemy - React JS, Redux + ES6. Completo ¡De 0 a experto!
+-	Mikrotik MTCNA Certified - MTCRE Certified – Ubiquitity (Telecomunicaciones).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Experiencia Profesional 	
 
-### Code Splitting
+1.	Ministerio de Salud Pública del Ecuador – Hospital Móvil No.2 (Dic 2017 – Agosto 2021) desempeñando actividades de análisis de datos estadísticos hospitalarios, soporte y mantenimiento de equipos tecnológico, mantenimiento de sistemas operativos, soporte de redes y telecomunicaciones.
+2.	Dts Redes y telecomunicaciones(2015-2017): Liderar el Equipo de soporte outsourcing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+EDUCACIÓN PROFESIONAL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+●	Full Stack Web Developer. Henry Bootcamp. 700 horas de cursado teórico-práctico. 2022.
+Titulo obtenido: Desarrollador Full Stack Developer
+●	Ingeniería en Sistemas Informáticos Universidad Luis Vargas Torres. 2009 - 2014.
+Titulo obtenido: Ingeniero en Sistemas Informáticos
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#� �p�o�r�f�o�l�i�o�
-�
-�
