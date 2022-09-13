@@ -24,10 +24,11 @@ const TechSkill = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Skill
           </span>
-          <span>Backend </span>
+          <span>Backend: Nodejs - Express </span>
+          <span>Frontend: Reactjs - Html - Css - Boostrap </span>
+
           {/* <span>Fronted</span> */}
-          <span>Nodejs</span>
-          <span>Postgresql</span>
+          
           
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
