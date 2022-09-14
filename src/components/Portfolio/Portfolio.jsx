@@ -30,7 +30,7 @@ const Portfolio = () => {
           </a>
 
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <a target="_blank" rel="noreferrer" href="https://pi-foods-julio-cariajano.vercel.app">
 
           <img src={Food} alt="" />
@@ -42,10 +42,68 @@ const Portfolio = () => {
 
           <img src={Github} alt="" />
           </a>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           {/* <img src={HOC} alt="" /> */}
+        {/* </SwiperSlide>  */}
+      </Swiper>
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
+        {/* <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://app-clinica.vercel.app">
+
+          <img src={Salud} alt=""  />
+          </a>
+
+        </SwiperSlide> */}
+        <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://pi-foods-julio-cariajano.vercel.app">
+
+          <img src={Food} alt="" />
+        </a>
         </SwiperSlide>
+        {/* <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://usergithub.vercel.app/">
+
+          <img src={Github} alt="" />
+          </a>
+        </SwiperSlide>  */}
+        {/* <SwiperSlide>
+          {/* <img src={HOC} alt="" /> */}
+        {/* </SwiperSlide>  */}
+      </Swiper>
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
+        {/* <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://app-clinica.vercel.app">
+
+          <img src={Salud} alt=""  />
+          </a>
+
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://pi-foods-julio-cariajano.vercel.app">
+
+          <img src={Food} alt="" />
+        </a>
+        </SwiperSlide> */}
+         <SwiperSlide>
+        <a target="_blank" rel="noreferrer" href="https://usergithub.vercel.app/">
+
+          <img src={Github} alt="" />
+          </a>
+        </SwiperSlide> 
+        {/* <SwiperSlide>
+          {/* <img src={HOC} alt="" /> */}
+        {/* </SwiperSlide>  */}
       </Swiper>
     </div>
   );
