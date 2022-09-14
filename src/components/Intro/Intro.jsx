@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 //import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/yo.png";
+import boy from "../../img/yoy.png";
 //import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -29,7 +29,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hola! Yo soy</span>
           <span>Julio Cariajano</span>
           <span>
-          Soy Apasionado por la tecnología de profesional Ingeniero en Sistemas Informáticos con habilidades como 
+          Soy Apasionado por la tecnología de profesion Ingeniero en Sistemas Informáticos con habilidades como 
           Web Full Stack Developer, conocimientos en 
           Javascript, React, Redux, Node.js, Express, Sequelize, Postgresql, 
           además de estar en continua especialización, tengo conocimientos y experiencia en 
@@ -56,7 +56,7 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={boy} alt="" />
+        <img className="imgsize" src={boy} alt="" />
         {/* <img src={Vector2} alt="" /> */}
         {/* <img src={boy} alt="" /> */}
         {/* animation */}
@@ -68,14 +68,14 @@ const Intro = () => {
           alt=""
         />
 
-        <motion.div
+        {/* <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
-        >
-          <FloatinDiv img={crown} text1="Web" text2="Full Stack Developer" />
-        </motion.div>
+        > */}
+          {/* <FloatinDiv img={boy} text1="Web" text2="Full Stack Developer" /> */}
+        {/* </motion.div> */}
 
         {/* animation */}
         <motion.div

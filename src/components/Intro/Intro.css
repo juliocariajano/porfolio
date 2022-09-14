@@ -7,7 +7,7 @@
 /* left side styling */
 .i-left {
   display: flex;
-  position: relative;
+  position:relative;
   flex: 1;
   flex-direction: column;
   gap: 2rem;
@@ -51,7 +51,14 @@
 /* right side styling */
 .i-right {
   flex: 1;
-  position: relative;
+  position:absolute;
+  margin-top: -2rem;
+  right: 20rem;
+}
+.imgsize{
+  height: 3rem;
+  width: 3rem;
+
 }
 .i-right > * {
   position: absolute;
