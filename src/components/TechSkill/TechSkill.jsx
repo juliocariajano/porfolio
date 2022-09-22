@@ -24,15 +24,8 @@ const TechSkill = () => {
         spaceBetween={5}
         slidesPerView={3}
         grabCursor={true}
-        className="techskill-slider"
+        className="techskill-slider">
     
-    >
-        {/* <SwiperSlide >
-
-<img src  ={Reac} alt="" />
-<img src  ={Sequelize} alt="" />
-
-</SwiperSlide> */}
 
         <SwiperSlide>
 

@@ -24,12 +24,7 @@ const navbar = () => {
                 Proyectos
               </Link>
             </li>
-            <li>
-              <Link to="portfolio" spy={true} smooth={true}>
-                Porfolio
-              </Link>
-            </li>
-            
+                        
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
