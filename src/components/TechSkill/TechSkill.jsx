@@ -33,12 +33,16 @@ const TechSkill = () => {
           <img src  ={Posgres} alt="" />
 
         </SwiperSlide>
-       
-         
-         
+              
         <SwiperSlide>
           <img src={Html} alt="" />
           <img src={Node} alt="" />
+
+        </SwiperSlide>
+        <SwiperSlide>
+
+          <img className="react" src={Reac} alt=""  />
+          {/* <img src  ={Posgres} alt="" /> */}
 
         </SwiperSlide>
       </Swiper>

@@ -1,33 +1,72 @@
-import React, { useContext, useRef, useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Contact.css";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser'
 import { themeContext } from "../../Context";
+
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  const form = useRef();
-  const [done, setDone] = useState(false)
-  const sendEmail = (e) => {
-    e.preventDefault();
+  //  const form = useRef();
+  // const [done, setDone] = useState(false)
+  
+  const [input, setInput] = useState({
+    user_name: "",
+    user_email: "",
+    user_message: "",
+  });
+  function handleInput(e) {
+    setInput({
+      ...input,
+      [e.target.name]: e.target.value,
+    });
+  }
 
+  function handleClick(e){
+    e.preventDefault();
+    if(input.user_name && input.user_email && input.user_message){
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
-        form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "service_ryvy4x4",
+        "template_5uc8dbi",
+        e.target,
+        "zmT5soNvxHXKErJ0p"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-          form.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+      .then((response) => console.log(response))
+      .then((error) => console.log(error));
+    }else{
+      alert('Todos los campos deven ser completados')
+    }
+
+  }
+
+  function sendEmail(e) {
+    e.preventDefault();
+    if(input.user_name && input.user_email && input.user_message){
+    emailjs
+      .sendForm(
+        "service_ryvy4x4",
+        "template_5uc8dbi",
+        e.target,
+        "zmT5soNvxHXKErJ0p"
+      )
+      .then((response) => console.log(response))
+      .then((error) => console.log(error));
+    }else{
+      alert('Todos los campos deven ser completados')
+    }
+  }
+
+  // const sendEmail = (event) => {
+  //   event.preventDefault();
+
+  //   emailjs.sendForm("service_ryvy4x4","template_5uc8dbi",event.target,"zmT5soNvxHXKErJ0p")
+  //     .then (response => console.log(response))
+  //     // setDone(true);
+  //     //     form.reset();
+        
+  //       .catch(error => console.log(error));
+           
+  // };
 
   return (
     <div className="contact-form" id="contact">
@@ -44,12 +83,13 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+        <form onSubmit={sendEmail} >
+          <input type="text" onChange={handleInput} name="user_name" className="user"  placeholder="Name"/>
+          <input type="email" onChange={handleInput} name="user_email" className="user" placeholder="Email"/>
+          <textarea name="user_message" onChange={handleInput} className="user" placeholder="Message"/>
+          {/* <button onClick={handleClick} className="button">Send</button> */}
+          <button onClick={handleClick}>Envio</button>
+          {/* <span>{done && "Thanks for Contacting me"}</span> */}
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
