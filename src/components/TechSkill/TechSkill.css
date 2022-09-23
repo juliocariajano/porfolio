@@ -20,21 +20,31 @@
 }
 
 /* slider */
-.techskill .swiper{
+/* .techskill .swiper{
     overflow: visible!important;
-}
-
+} */
+/*
 .techskill-slider {
   /* margin-top: 3rem;  */
-  width: 60%;
-}
+/*  width: 70%;
+}*/
 
-.techskill-slider .swiper-slide {
+/* .techskill-slider .swiper-slide {
   width: 20rem;
-}
-.techskill img {
-  width: 12rem;
+} */
+.techskill1{
+  border-top: 2rem;
+  justify-content: center;
+
+  width: 9rem;
+  padding: 1rem;
+  height: 6rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
-
+.react {
+  width: 1rem;
+  height: 7rem;
+  /* filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25)); */
+  border-radius: 19px;
+}
