@@ -1,12 +1,12 @@
 .services {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 30rem;
+  /* height: 30rem; */
   margin-bottom: 8rem;
-  margin-top: 12rem;
+  margin-top: 1rem;
   margin-bottom: 13rem;
   /* scroll view */
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 /* left side */
 .awesome {
@@ -102,7 +102,7 @@ margin-top: 22rem;
   width: 22rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
-  margin-top: 3rem;
+  margin-top: 0rem;
   }
   .portfolio-img3 {
     width: 22rem;
