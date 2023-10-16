@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/menu.js" refer>  </script>
+
+
+    <title>Conocimientos</title>
+</head>
+
+<body>
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra Lateral izq (Inf usuario) -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+                <!--Informacion General del Usuario  -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/perfil.jpg" class="user-info__image" alt="Imagen de usuario" />
+                        <!-- sombra -->
+                    </div>
+                    <h2 class="user-info__name"> Julio Cariajano</h2>
+                    <h2 class="user-info__job"> Desarrollador Web Full Stack</h2>
+
+                </div>
+                <!--Menu de Navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a class="menu__link" href="index.html">
+                                <i class="menu__icon fa-solid fa-house"> </i>
+                                <span class="menu__overlay"> Home </span>
+                            </a>
+
+                        </li>
+
+
+                        <li class="menu__option">
+                            <a class="menu__link menu__link--active" href="conocimientos.html">
+                                <i class="menu__icon fa-solid fa-graduation-cap"> </i>
+                                <span class="menu__overlay"> Conocimientos </span>
+                            </a>
+
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__link" href="portafolio.html">
+                                <i class="menu__icon fa-solid fa-briefcase"> </i>
+                                <span class="menu__overlay"> Porfolio </span>
+                            </a>
+
+                        </li>
+                        <!-- <li class="menu__option">
+                            <a class="menu__link" href="index.html">
+                                <i class="menu__icon fa-solid fa-book"> </i>
+                                <span class="menu__overlay"> Blog </span>
+                            </a>
+
+                        </li> -->
+                        <li class="menu__option">
+                            <a class="menu__link" href="contacto.html">
+                                <i class="menu__icon fa-solid fa-envelope"> </i>
+                                <span class="menu__overlay"> Contacto </span>
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+                <!--Links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://www.facebook.com/julio.cariajano" target="_blank" class="social__links">
+                                <i class="social__icon fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/juliocariajano" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.instagram.com/juliocariajano" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!--Boton del curriculum  -->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar</a>
+
+                </div>
+
+                <!--Pie de pagina  -->
+                <div class="user-info__footer">
+
+                    <footer>
+                        &copy; 2023 Julio Cariajano
+                    </footer>
+                </div>
+
+            </section>
+
+
+        </aside>
+
+        <!-- menu responsive -->
+
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle_icon fa-solid fa-bars"></i>
+            <i class="menu-toggle_icon fa-solid fa-xmark"></i>
+
+        </div>
+        <!-- Contenido Principal -->
+        <main class="layout__content">
+            <section class="content__page content__portfolio">
+                <!-- Contenido de Conocimientos -->
+
+                <header class="portfolio__header">
+                    <h1 class="portfolio__title">
+                        Portafolio
+                    </h1>
+
+                </header>
+
+                <nav class="portfolio__navbar">
+                    <ul class="portfolio__menu">
+                        <li class="portfolio__option portfolio__option--active"> </li>
+                        <a href="#" class="portfolio__link"> Todo</a>
+                    </ul>
+                </nav>
+                <section class="portfolio__gallery">
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img alt="proyecto" src="assets/img/clinica_app.jpg" class="gallery__image">
+                            </a>
+                        </div>
+                        <figcaption class="gallery__title"> Clinica App</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"></i>
+                        <span class="gallery__category">Videos</span>
+                    </figure>
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img alt="proyecto" src="assets/img/github.jpg" class="gallery__image">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title"> Seach Github</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"></i>
+                        <span class="gallery__category">Videos</span>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img alt="proyecto" src="assets/img/recipes.png" class="gallery__image">
+                            </a>
+                        </div>
+
+                        <figcaption class="gallery__title"> Food App</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"></i>
+                        <span class="gallery__category">Videos</span>
+                    </figure>
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img alt="proyecto" src="assets/img/galeria-1.jpg" class="gallery__image">
+                            </a>
+                        </div>
+                        <figcaption class="gallery__title"> Proyecto</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"></i>
+                        <span class="gallery__category">Videos</span>
+                    </figure>
+
+                </section>
+
+            </section>
+    </div>
+    </div>
+
+
+
+
+    </section>
+
+    </div>
+
+
+
+
+    </div>
+    </section>
+
+    </section>
+
+    </main>
+    </div>
+</body>
+
+</html>
