@@ -361,6 +361,17 @@ body{
     font-weight: 600
 }
 
+.image__sobre-mi{
+    
+    /* position: relative;
+    display: inline-block;
+    width: 18rem;
+    margin-top: 7rem; */
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+    /* z-index: 1; */
+}
+
 
 /* LO QUE HAGO */
 
