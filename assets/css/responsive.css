@@ -250,6 +250,12 @@
         flex-basis: 100%;
     }
 
+    .user-info__container-image{
+        width: 20rem;
+        margin-top: 10rem;
+        display: inline-block;
+        margin-bottom: -3rem;
+    }
     /* .form__container{
         display: flex;
         flex-direction: row;
