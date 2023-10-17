@@ -254,7 +254,7 @@
         width: 20rem;
         margin-top: 10rem;
         display: inline-block;
-        margin-bottom: -3rem;
+        margin-bottom: -2rem;
     }
     /* .form__container{
         display: flex;
@@ -275,5 +275,9 @@
         flex-basis: 100%;
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .user-info__image{
+        margin-bottom: 1.5rem;
     }
 }
