@@ -192,22 +192,22 @@
 
                                 <section class="form__left">
                                     <div class="form__group">
-                                        <input type="text" class="form__input" name="name" required
+                                        <input type="text" class="form__input" name="user_name" required
                                             placeholder="Ingrese nombre" />
                                         <!-- <label class="form__label">Nombre</label> -->
                                     </div>
 
 
                                     <div class="form__group">
-                                        <input placeholder="Ingrese email" type="text" class="form__input" name="email"
-                                            required />
+                                        <input placeholder="Ingrese email" type="text" class="form__input"
+                                            name="user_email" required />
                                         <!-- <label for="email" class="form__label">Email</label> -->
                                     </div>
 
 
                                     <div class="form__group">
                                         <input placeholder="Ingrese asunto" type="text" class="form__input"
-                                            name="subject" required />
+                                            name="user_asunto" required />
                                         <!-- <label for="subject" class="form__label">Asunto </label> -->
                                     </div>
 
@@ -216,31 +216,25 @@
                                 <section class="form__rigth">
                                     <div class="form__group form__group--textarea ">
                                         <textarea placeholder="Ingrese descripcion"
-                                            class="form__input form__input--textarea" name="message"
+                                            class="form__input form__input--textarea" name="user_message"
                                             required></textarea>
 
                                     </div>
 
                                     <input id="button" type="submit" class="form__button" value="Enviar mensaje">
-                                    <script type="text/javascript"
-                                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-                                    <script type="text/javascript">
-                                        emailjs.init('zmT5soNvxHXKErJ0p')
-                                    </script>
                                 </section>
                             </div>
                         </form>
+                        <script type="text/javascript"
+                            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                        <script type="text/javascript">
+                            emailjs.init('MU8z4QD5FX27JwFMQ')
+                        </script>
+
                     </section>
-                    <!-- <section class="form__rigth">
-                        <div class="form__group form__group--textarea ">
-                            <textarea placeholder="Ingrese descripcion" class="form__input form__input--textarea"
-                                name="message" required></textarea>
-                      
-                        </div>
-                </div>
-            </section> -->
-                    <!-- <input type="submit" class="form__button" value="Enviar mensaje"> -->
+
                 </div>
 
 
@@ -272,5 +266,29 @@
     </main>
     </div>
 </body>
+
+
+<script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+        .addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            btn.value = 'Sending...';
+
+            const serviceID = 'service_4ucv2jl';
+            const templateID = 'template_5uc8dbi';
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.value = 'Enviar mensaje';
+                    alert('Mensaje enviado con exito!');
+                }, (err) => {
+                    btn.value = 'Enviar mensaje';
+                    alert(JSON.stringify(err));
+                });
+        });
+</script>
 
 </html>
