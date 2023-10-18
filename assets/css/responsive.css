@@ -256,31 +256,22 @@
     .gallery__item{
         flex-basis: 100%;
     }
-   
-    .aside__user-info,
-    .layout__aside--visible{
-        margin-right: -2rem;
+
+  
+    .aside__user-info {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        height: auto;
-        overflow-y: hidden;
-        float: right;
-    }
-
-    .aside__user-info {
-      
         width: 100%;
-        
         margin-left: -2rem;
       }
 
       .layout__aside--visible{
-        
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
         width: 70%;
         margin-right: 0%;
         opacity: 1;
     }
-
 
     .user-info__container-image{
         width: 20rem;
@@ -288,7 +279,8 @@
         display: inline-block;
         margin-bottom: -2rem;
     }
-   
+
+
     .form__container{
         flex-direction: column;
         gap: 2rem;
@@ -310,7 +302,11 @@
         margin-bottom: 1.5rem;
     }
 
-  
+    .user-info__buttons{
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+    }
+    
     
 
   
