@@ -257,19 +257,26 @@
         flex-basis: 100%;
     }
    
-    .aside__user-info {
+    .aside__user-info,
+    .layout__aside--visible{
+        margin-right: -2rem;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        width: 100%;
         height: auto;
+        overflow-y: hidden;
+        float: right;
+    }
+
+    .aside__user-info {
+      
+        width: 100%;
+        
         margin-left: -2rem;
       }
 
       .layout__aside--visible{
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+        
         width: 70%;
-        height: auto;
         margin-right: 0%;
         opacity: 1;
     }
