@@ -262,6 +262,7 @@
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         width: 100%;
+        height: auto !important;
         margin-left: -2rem;
       }
 
