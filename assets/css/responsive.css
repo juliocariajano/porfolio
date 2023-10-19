@@ -308,6 +308,75 @@
     
     
 
+
+    .contenedor-proyecto {
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+       }
+       
+       .contenedor-imagen {
+           width: 100%;
+           height: 100%;
+           padding: 25px;
+           /* box-sizing: border-box; */
+           /* position: relative; */
+       }
+       
+       .contenedor-imagen img {
+           width: 100%;
+           height: 200px;
+           display: block;
+           margin-bottom: 10px;
+           align-items: center;
+           justify-content: center;
+       
+           
+       }
+                
+       .ver-descripcion {
+           position: relative;
+           width: 150px; /* Ocupa todo el ancho de la imagen */
+           color: var(--color-secondary);
+           padding: 10px;
+           text-align: center;
+           font-weight: bold;
+           cursor: pointer;
+           margin-top:-1rem;
+       }
+       
+       .contenedor-descripcion {
+
+          display: none;
+        margin-top: -2rem;
+          width: 100%;
+          transition: all 0.3s;
+       }
+       
+       .cerrar-descripcion {
+           align-content: center;
+           position: absolute;
+           width: 1.7rem;
+           border-radius: 0.5rem;
+           height: 1.7rem;
+           background-color:#007BFF;;
+           top: 0rem;
+           right: 0rem;
+           cursor: pointer;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           color: white;
+       }
+       
+       .parrafo{
+           margin-bottom: 1rem;
+           gap: 5rem;
+       }
+       
+       
+
+
   
 
 
